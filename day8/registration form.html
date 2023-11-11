@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <style>
+      th,
+      td {
+        width: 250px;
+        float: left;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th><label for="name">FULL NAME</label></th>
+        <td>
+          <input type="text" placeholder="firstname" />
+          <input type="text" placeholder="surname" />
+        </td>
+      </tr>
+      <tr>
+        <th><label for="email">EMAIL</label></th>
+        <th><input type="email" placeholder="sample@gmail.com" /></th>
+      </tr>
+      <tr>
+        <th>Gender :</th>
+        <td>
+          male : <input type="radio" name="gender" value="male" id="" /> female
+          : <input type="radio" name="gender" value="female" id="" />
+        </td>
+      </tr>
+      <tr>
+        <th><label for="phone">PHONE</label></th>
+        <th><input type="tel" placeholder="************" /></th>
+      </tr>
+      <tr>
+        <th><label for="number">EMERGENCY NUMBER</label></th>
+        <th><input type="tel" placeholder="*************" /></th>
+      </tr>
+      <tr>
+        <td>Do you require parking ?</td>
+        <td>
+          yes : <input type="radio" name="answer" value="yes" /> no :<input
+            type="radio"
+            name="answer"
+            value="no"
+          />
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

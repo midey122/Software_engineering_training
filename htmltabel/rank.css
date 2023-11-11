@@ -1,0 +1,23 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: 0%;
+}
+.green{
+    background-color: mediumseagreen;
+    color: aliceblue;
+    margin: 1px solid;
+}
+.Sally{
+    color: mediumseagreen;
+    background-color: rgb(236, 233, 233);
+    text-decoration-style: double;
+}
+table{
+    border-bottom: 2px solid;
+    border-color: mediumseagreen;
+}
+body{
+    margin: 50px auto;
+    padding: 350px;
+}

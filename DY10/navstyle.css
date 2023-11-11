@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior:smooth;
+}
+.navstyle{
+    background-color: black;
+    height: 7vh;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    align-items:first baseline;
+}
+.link{
+    color: white;
+    font-size: larger;
+    text-decoration: none;
+    padding: 11px;
+    /* width: 100%; */
+}
+.link:hover{
+    Background-color: #04AA6D;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    color: white;
+    font-size: 35px;
+}
+.page1{
+    background-color: #04AA6D;
+    scroll-snap-type:mandatory;
+}
+.page2{
+    background-color: black;
+}
+.page3{
+    background-color: #04AA6D;
+}
+.page4{
+    background-color: black;
+}

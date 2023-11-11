@@ -1,0 +1,14 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: 0%;
+}
+th,td,table{
+     border: 1px solid;
+ }
+.computer{
+    padding: 50px;
+    margin: 200px auto;
+    background-color: black;
+    color: aliceblue;
+}
