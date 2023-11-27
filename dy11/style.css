@@ -1,0 +1,27 @@
+:root {
+  --head-color:dodgerblue;
+  --text-color:brown;
+  --font-size:13px;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.block {
+  width: 100%;
+  height: 100vh;
+  background-color: wheat;
+}
+.block h1 {
+  color: var(--head-color);
+}
+.block h1 input {
+  padding: 10px;
+}
+.block blockquote {
+  color: var(--text-color);
+  font-size: var(--font-size);
+}/*# sourceMappingURL=style.css.map */

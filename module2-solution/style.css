@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.one {
+  grid-area: first;
+}
+.three {
+  grid-area: third;
+}
+.two {
+  grid-area: second;
+}
+p {
+  padding: 10px;
+}
+.first {
+  width: 100%;
+  background-color: gray;
+  margin-bottom: 10px;
+  border: 1px solid black;
+
+}
+.first h4 {
+  border: 1px solid black;
+  position: relative;
+  display: inline;
+}
+.one > div > h4 {
+  background-color: pink;
+  width: 70px;
+  text-align: center;
+  border: 2px solid black;
+}
+.two > div > h4 {
+  background-color: red;
+  width: 70px;
+  text-align: center;
+  border: 2px solid black;
+}
+.three > div > h4 {
+  background-color: yellow;
+  width: 70px;
+  text-align: center;
+  border: 2px solid black;
+}
+.first > div {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.altogether {
+  display: grid;
+  grid-template-areas: "first second third";
+  gap: 10px;
+}
+
+
+@media (min-width: 768px) and (max-width: 900px) {
+  .altogether {
+    display: grid;
+    grid-template-areas:
+      "first second "
+      "third third";
+  }
+}
+@media (max-width: 767px) {
+  .altogether {
+    display: grid;
+    grid-template-areas:
+      "first"
+      "second"
+      "third";
+  }
+}

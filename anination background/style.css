@@ -1,0 +1,15 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#mydiv{
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+    animation: mymove 10s infinite;
+}
+@keyframes mymove {
+    from{background-color: blue;}
+    to{background-color: yellow;}
+}
